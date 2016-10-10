@@ -183,7 +183,11 @@
 			<id>spring-release</id>
 			<name>Spring Release</name>
 			<url>http://repo.spring.io/release</url>
-		</pluginRepository>			
+		</pluginRepository>
+		<pluginRepository>
+			<id>spring-snapshots</id>
+			<url>http://repo.spring.io/snapshot</url>
+		</pluginRepository>
 	</pluginRepositories>
 	<profiles>
 		<profile>
